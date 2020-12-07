@@ -1,0 +1,74 @@
+body {
+  background-color: #318fb5;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  color: blanchedalmond;
+}
+
+.jumbotron {
+  color: blanchedalmond;
+  z-index: 1;
+  text-align: center;
+  margin: 40px;
+  max-width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #222d47;
+  border: 5px solid darkmagenta;
+}
+
+.img-fluid {
+  width: 330px;
+  height: 330px;
+  opacity: 0.8;
+  z-index: 2;
+  float: right;
+  top: 20px;
+  border-radius: 2%;
+}
+
+.search {
+  max-width: 50%;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #318fb5;
+}
+
+.form-control {
+  max-width: 30%;
+  display: inline-block;
+}
+
+#weather-now {
+  font-weight: 400;
+}
+
+#current-date {
+  display: block;
+  list-style: none;
+}
+
+#current-temp {
+  list-style: none;
+}
+
+#todays-weather {
+  display: inline-block;
+  list-style: none;
+  padding-bottom: 20px;
+  color: #318fb5;
+  font-weight: bold;
+}
+
+.card-body {
+  border: 4px solid darkmagenta;
+  padding: 4px;
+  display: block;
+  background-color: #318fb5;
+}
